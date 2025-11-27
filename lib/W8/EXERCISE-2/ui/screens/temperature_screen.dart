@@ -17,7 +17,7 @@ class _TemperatureScreenState extends State<TemperatureScreen> {
       borderRadius: BorderRadius.circular(12),
     ),
     hintText: 'Enter a temperature',
-    hintStyle: const TextStyle(color: Colors.white70),
+    hintStyle: const TextStyle(color: Colors.white),
   );
 
   void convertToFahrenheit(String value) {
